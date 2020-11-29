@@ -81,16 +81,28 @@
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="93.75"/>
         </scene>
-        <!--View Controller-->
+        <!--Large Image View Controller-->
         <scene sceneID="Wr0-Tm-aVR">
             <objects>
-                <viewController id="eTA-u5-l1M" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="largeImage" id="eTA-u5-l1M" customClass="LargeImageViewController" customModule="ImageLoadingProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="t6d-wO-gnr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8df-gI-dNw">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8By-zX-BbC">
+                                        <rect key="frame" x="0.0" y="174" width="414" height="470"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="414" id="Bss-xJ-LHc"/>
+                                            <constraint firstAttribute="height" constant="470" id="uQ9-6S-brl"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="8By-zX-BbC" firstAttribute="centerY" secondItem="8df-gI-dNw" secondAttribute="centerY" id="u1X-n2-rCN"/>
+                                </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="Syt-OZ-dRL"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="c0r-5w-qwb"/>
                             </scrollView>
@@ -113,6 +125,11 @@
                             <constraint firstItem="d0h-ra-sE0" firstAttribute="centerY" secondItem="t6d-wO-gnr" secondAttribute="centerY" id="zJF-rT-SE7"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="largeImage" destination="8By-zX-BbC" id="aDy-O5-kDB"/>
+                        <outlet property="progressView" destination="d0h-ra-sE0" id="9Nd-nZ-l67"/>
+                        <outlet property="scrollView" destination="8df-gI-dNw" id="ccQ-oi-PGC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UCO-s5-MPl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

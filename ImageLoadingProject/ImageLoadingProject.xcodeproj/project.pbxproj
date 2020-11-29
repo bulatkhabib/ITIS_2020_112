@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E6D325D256C25520031AA84 /* LargeImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6D325C256C25520031AA84 /* LargeImageViewController.swift */; };
 		AEF3A30F2562D705007CCD92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF3A30E2562D705007CCD92 /* AppDelegate.swift */; };
 		AEF3A3112562D705007CCD92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF3A3102562D705007CCD92 /* SceneDelegate.swift */; };
 		AEF3A3132562D705007CCD92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF3A3122562D705007CCD92 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E6D325C256C25520031AA84 /* LargeImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeImageViewController.swift; sourceTree = "<group>"; };
 		AEF3A30B2562D705007CCD92 /* ImageLoadingProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageLoadingProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF3A30E2562D705007CCD92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEF3A3102562D705007CCD92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				AEF3A3172562D706007CCD92 /* Assets.xcassets */,
 				AEF3A3192562D706007CCD92 /* LaunchScreen.storyboard */,
 				AEF3A31C2562D706007CCD92 /* Info.plist */,
+				9E6D325C256C25520031AA84 /* LargeImageViewController.swift */,
 			);
 			path = ImageLoadingProject;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			files = (
 				AEF3A3132562D705007CCD92 /* ViewController.swift in Sources */,
 				AEF3A3242562DBB3007CCD92 /* ImageCell.swift in Sources */,
+				9E6D325D256C25520031AA84 /* LargeImageViewController.swift in Sources */,
 				AEF3A30F2562D705007CCD92 /* AppDelegate.swift in Sources */,
 				AEF3A3112562D705007CCD92 /* SceneDelegate.swift in Sources */,
 				AEF3A3282562E4D4007CCD92 /* URLDetailsViewController.swift in Sources */,
